@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Portfolio</title>
+  </head>
+  <body class="dark">
+    <header class="header">
+      <div class="switches">
+        <div id="toggle-theme" class="toggle-theme">
+          <img id="toggle-icon" src="assets/icons/moon.svg" alt="icon-theme" class="toggle-theme_icon">
+          <p id="toggle-text" class="toggle-theme_text">Dark Mode</p>
+        </div>
+        <div id="flags" class="flags">
+          <div class="flags_item" data-language="es">
+            <img src="assets/icons/es.svg" alt="">
+          </div>
+          <div class="flags_item" data-language="en">
+            <img src="assets/icons/gb.svg" alt="">
+          </div>
+        </div>
+      </div>
+      <div id="toggle-colors" class="colors">
+        <div data-color="hsl(214, 84%, 56%)" class="colors_item colors_item--blue"></div>
+        <div data-color="hsl(150, 84%, 56%)" class="colors_item colors_item--green"></div>
+        <div data-color="hsl(276, 84%, 56%)" class="colors_item colors_item--purple"></div>
+        <div data-color="hsl(46, 84%, 56%)" class="colors_item colors_item--orange"></div>
+
+      </div>      
+    
+    </header>
+    <main class="main">
+      <!--Seccion izquierda  ---->
+      <section class="column column--left">
+        <!-- PROFILE CARD -->
+        <article class="card card--profile">
+          <div class="card_image-container">
+            <img src="assets/images/me.jpg" alt="foto">
+          </div>
+          <div class="card_header">
+            <h2 class="card_title">Freddy Abregu </h2>
+            <p class="card_subtitle">Frontend and Backend Developer</p>
+          </div>
+          <div class="card_body">
+            <div class="card_link">
+              <i class="fas fa-envelope icon"></i>
+              <a href="mailto:fabregu01@gmail.com">fabregu01@gmail.com</a>
+            </div>
+            <div class="card_link">
+              <i class="fas fa-phone-alt icon"></i>
+              <a href="961271944">961271944</a>
+            </div>
+            <p class="card_text">
+              Desarrollador Web Fronted y Laravel con 2 años de experiencia con tecnologias PHP(CodeIgniter y Laravel), JavaScript y Css. <br>
+              Apasionado en las nuevas tecnologias me desenvuelvo como Freelance desarrollando paginas web y diversos sistemas POS para distintos rubros  
+            </p>
+          </div>
+        </article>
+
+        <!--Card Eperience  ---->
+        <article class="card card--experience">
+          <h2 class="card_title">Experiences</h2>
+          <div class="experience">
+            <img src="assets/images/logo.png" alt="logo" class="experience_image">
+            <div class="experience_info">
+              <p class="experience_time"> August 2020 - Current</p>
+              <h3 class="experience_job">Front End Developer</h3>
+              <p class="experience_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dolor nulla, molestie id pulvinar sit amet, pretium finibus justo.</p>
+            </div>
+          </div>
+          <div class="experience">
+            <img src="assets/images/logo.png" alt="logo" class="experience_image">
+            <div class="experience_info">
+              <p class="experience_time">August 2020 - Current</p>
+              <h3 class="experience_job">Front End Developer</h3>
+              <p class="experience_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dolor nulla, molestie id pulvinar sit amet, pretium finibus justo.</p>
+            </div>
+          </div>
+          <div class="experience">
+            <img src="assets/images/logo.png" alt="logo" class="experience_image">
+            <div class="experience_info">
+              <p class="experience_time"> August 2020 - Current</p>
+              <h3 class="experience_job">Front End Developer</h3>
+              <p class="experience_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dolor nulla, molestie id pulvinar sit amet, pretium finibus justo.</p>
+            </div>
+          </div>
+        </article>
+        <!--End Card Eperience  ---->
+
+         <!--Card Hobbies  ---->
+         <article class="card card--hobbies">
+          <h2 class="card_title">Hobbies</h2>
+          <div class="card_image_container">
+            <img src="assets/images/hobbie.jpg" alt="man-in-bicicle">
+          </div> 
+              <h3 class="hobbie_title">Bicking</h3>
+              <p class="card_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dolor nulla, molestie id pulvinar sit amet, pretium finibus justo.</p>
+            
+           
+        </article>
+        <!--End Card Hobbies  ---->
+      </section>
+      <!--End Seccion izquierda  ---->
+
+       <!--Seccion derecha  ---->
+      <section class="column column--right">
+        
+        <!--Cards Skills  ---->
+        <article class="card">
+          <h2 class="card_title">Front-End</h2>
+          <small>Años de Experiencia</small>
+
+          <div class="skills">
+            <div class="skills_header">
+              <span class="skill_start-level">0</span>
+              <span class="skill_start-level">5</span>
+            </div>          
+            <div class="skills_item">
+              <p class="skill_tech">HTML</p>
+              <div class="skills_bar skills_bar--70"></div>
+            </div>
+            <div class="skills_item">
+              <p class="skill_tech">CSS</p>
+              <div class="skills_bar skills_bar--80"></div>
+            </div>
+            <div class="skills_item">
+              <p class="skill_tech">Javascript</p>
+              <div class="skills_bar skills_bar--60"></div>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <h2 class="card_title">BACK-END</h2>
+          <small>Años de Experiencia</small>
+          <div class="skills">
+            <div class="skills_header">
+              <span class="skill_start-level">0</span>
+              <span class="skill_start-level">5</span>
+            </div>  
+            <div class="skills_item">
+              <p class="skill_tech">PHP</p>
+              <div class="skills_bar skills_bar--70"></div>
+            </div>
+            <div class="skills_item">
+              <p class="skill_tech">Node Js</p>
+              <div class="skills_bar skills_bar--80"></div>
+            </div>
+            <div class="skills_item">
+              <p class="skill_tech">React Native</p>
+              <div class="skills_bar skills_bar--60"></div>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <h2 class="card_title">FRAMEWORKS</h2>
+          <small>Años de Experiencia</small>
+          <div class="skills">
+            <div class="skills_header">
+              <span class="skill_start-level">0</span>
+              <span class="skill_start-level">5</span>
+            </div>  
+            <div class="skills_item">
+              <p class="skill_tech">Laravel</p>
+              <div class="skills_bar skills_bar--70"></div>
+            </div>
+            <div class="skills_item">
+              <p class="skill_tech">Code-Igniter</p>
+              <div class="skills_bar skills_bar--80"></div>
+            </div>
+            <div class="skills_item">
+              <p class="skill_tech">VUE JS</p>
+              <div class="skills_bar skills_bar--60"></div>
+            </div>
+          </div>
+        </article>
+        <!--End Cards Skills  ---->
+
+        <!--Cards Projects  ---->
+        <article class="card card--project">
+          <div class="card_image-container">
+            <img src="assets/images/project.jpg" alt="Landing Page" class="card_image">
+          </div>
+          <div class="project">
+            <div class="project_tags">
+              <span class="project_tag">#HTML</span>
+              <span class="project_tag">#CSS</span>
+              <span class="project_tag">#Javascript</span>
+              <span class="project_tag">#Responsive</span>
+            </div>
+            <h2 class="card_title">Landing Page</h2>
+            <p class="card_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc blandit elit vel arcu vulputate, et fringilla ligula sodales. Duis varius cursus augue. Sed ullamcorper accumsan euismod.</p>
+            <p class="card_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc blandit elit vel arcu vulputate, et fringilla ligula sodales. Duis varius cursus augue. Sed ullamcorper accumsan euismod.</p>
+            <div class="buttons">
+              <a href="#" class="button button--primary">Demo</a>
+              <a href="#" class="button button--ghost">Code</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card card--project">
+          <div class="card_image-container">
+            <img src="assets/images/project.jpg" alt="Landing Page" class="card_image">
+          </div>
+          <div class="project">
+            <div class="project_tags">
+              <span class="project_tag">#HTML</span>
+              <span class="project_tag">#CSS</span>
+              <span class="project_tag">#Javascript</span>
+              <span class="project_tag">#Responsive</span>
+            </div>
+            <h2 class="card_title">Landing Page</h2>
+            <p class="card_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc blandit elit vel arcu vulputate, et fringilla ligula sodales. Duis varius cursus augue. Sed ullamcorper accumsan euismod.</p>
+            <p class="card_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc blandit elit vel arcu vulputate, et fringilla ligula sodales. Duis varius cursus augue. Sed ullamcorper accumsan euismod.</p>
+            <div class="buttons">
+              <a href="#" class="button button--primary">Demo</a>
+              <a href="#" class="button button--ghost">Code</a>
+            </div>
+          </div>
+        </article>
+        <article class="card card--project">
+          <div class="card_image-container">
+            <img src="assets/images/project.jpg" alt="Landing Page" class="card_image">
+          </div>
+          <div class="project">
+            <div class="project_tags">
+              <span class="project_tag">#HTML</span>
+              <span class="project_tag">#CSS</span>
+              <span class="project_tag">#Javascript</span>
+              <span class="project_tag">#Responsive</span>
+            </div>
+            <h2 class="card_title">Landing Page</h2>
+            <p class="card_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc blandit elit vel arcu vulputate, et fringilla ligula sodales. Duis varius cursus augue. Sed ullamcorper accumsan euismod.</p>
+            <p class="card_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc blandit elit vel arcu vulputate, et fringilla ligula sodales. Duis varius cursus augue. Sed ullamcorper accumsan euismod.</p>
+            <div class="buttons">
+              <a href="#" class="button button--primary">Demo</a>
+              <a href="#" class="button button--ghost">Code</a>
+            </div>
+          </div>
+        </article>
+        <!--End Cards Projects  ---->
+      </section>
+      <!--End Seccion derecha  ---->
+    </main>
+    <script src="js/scripts.js"></script>
+    <script src="js/grasshoper.js"></script>
+  </body>
+</html>
